@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&family=Poppins:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&family=Poppins:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&family=Poppins:wght@500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #2F1893;
+}
+
+.container {
+    max-width: 1160px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.max-width {
+    max-width: 607px;
+}
+
+.gap {
+    gap: 25px;
+}
+
+.btn {
+    background: #482BE7;
+    border-radius: 100px;
+    padding: 7px 18px;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.font {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.startup {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.padding {
+    padding: 53px;
+}
+
+.text {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    margin: auto;
+    padding-top: 397px;
+}
+
+.mt-74 {
+    margin-top: 74px;
+}
+
+.mail {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    opacity: 0.4;
+    width: 98px;
+    height: 26px;
+    padding: 16px;
+}
+
+.border-mail {
+    border: 2px solid #FFFFFF;
+    border-radius: 100px;
+    mix-blend-mode: normal;
+    opacity: 0.2;
+    width: 350px;
+    height: 60px;
+}
+
+.button {
+    background: #25DAC5;
+    border-radius: 30px;
+    width: 120px;
+    height: 60px;
+    border: none;
+    margin-left: 10px;
+}
+
+.send {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 16px 37px;
+}
+
+.last-heading {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.2px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.3;
+    margin: auto;
+    padding: 32px;
+
+}
+.h-100vh{
+    min-height: 100vh;
+}
